@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 '''
-Get all substrings.
+Get all substrings from string argument.
     Returns None if no substrings.
     Returns only one substring if there's only one.
     Returns all substrings in a list if there's more than one.
@@ -42,7 +42,7 @@ def get_substring(string):
         return substrings
 
 '''
-Given list of characters and a string, find substrings in argument string containing all characters in argument list.
+Find substrings in argument string containing all characters in argument list.
     Returns None if no matching substrings.
     Returns only one matching substring if there's only one.
     Returns all matching substrings in a list if there's more than one.
@@ -86,7 +86,7 @@ def get_matching_substring(string, compare_values):
         return matching_substrings
 
 '''
-Given list of characters and a string, find smallest substring in argument string containing all characters in argument list.
+Find smallest substring in argument string containing all characters in argument list.
 '''
 def get_small_matching_substring(string, compare_values):
     if (type(string) is not str):
