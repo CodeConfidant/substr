@@ -43,7 +43,6 @@
             Find smallest substring in argument string containing all characters in argument list.
         </td>
 	</tr>
-    
 </table>
 
 [Back to Top](#substr)
